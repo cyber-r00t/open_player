@@ -1,0 +1,54 @@
+#  OpenPlayer - Liberated Audio Experience
+#  Copyright (C) 2024 [Tu Nombre o Alias]
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+#
+#  Branding, logos and UI design are licensed under CC BY-NC-ND 4.0.
+#  You should have received a copy of the GNU AGPL v3 along with this program.
+
+
+name: open_player
+description: "A professional open source music player."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  just_audio: ^0.9.36
+  just_audio_windows: ^0.2.3
+  audio_session: ^0.1.18
+  rxdart: ^0.27.7 
+  http: ^1.2.1
+  shared_preferences: ^2.5.5
+  cached_network_image: ^3.3.1
+  file_picker: ^8.0.3
+  win32: ^5.9.0
+  ffi: ^2.1.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/OpenPlayer.png
+  

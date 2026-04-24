@@ -18,5 +18,5 @@ samples, guidance on mobile development, and a full API reference.
 
 
 "Apoya el Proyecto"
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'D1D01Y6EP2');kofiwidget2.draw();</script> 
+<a href='https://ko-fi.com/D1D01Y6EP2' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 Si OpenPlayer te ahorra tiempo o te ayuda a escuchar música sin trackers, ¡invítame a un café!
